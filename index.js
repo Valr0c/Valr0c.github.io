@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import {GLTFLoader} from './node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import {GLTFLoader} from 'https://unpkg.com/three@0.153.0/examples/jsm/loaders/GLTFLoader.js';
 
 const scene = new THREE.Scene();
 const cam = new THREE.PerspectiveCamera(30, window.innerWidth/window.innerHeight, 1, 1000);
